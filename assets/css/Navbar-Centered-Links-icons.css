@@ -1,0 +1,49 @@
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-rounded {
+  border-radius: .5rem;
+}
+
+.about-main {
+  /*background: #ffffff;*/
+  padding: 30px 2px;
+  width: 100%;
+  min-height: 100svh;
+}
+
+.card-hey {
+  width: 100%;
+  max-width: 324px;
+  min-width: 324px;
+  padding: 0px;
+}
+
+@media (min-width: 576px) {
+  .card-hey {
+    width: 100%;
+    max-width: 680px;
+    min-width: 324px;
+    padding: 2px;
+    margin: 9px;
+  }
+}
+

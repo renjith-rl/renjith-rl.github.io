@@ -1,0 +1,25 @@
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  filter: blur(10px);
+  transform: scale(1.05);
+  z-index: -2;
+}
+
+.bg-tint {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 50% 30%, rgba(90,160,255,0.55), rgba(20,35,80,0.95));
+  z-index: -1;
+}
+
+div {
+}
+
+div {
+}
+
