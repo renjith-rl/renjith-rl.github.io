@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Josefin Sans';
-	src: url(../../assets/fonts/Josefin%20Sans-d939039e2da100d67cd5500e10e3ac3b.woff2?h=c181fb44ec81b0968bae57e2447a534e) format('woff2'),
-	url(../../assets/fonts/Josefin%20Sans-1569ccf7f58dfd40ae4ccb8eb7f2f143.woff?h=c181fb44ec81b0968bae57e2447a534e) format('woff');
+	src: url(../../assets/fonts/Josefin%20Sans-d939039e2da100d67cd5500e10e3ac3b.woff2) format('woff2'),
+	url(../../assets/fonts/Josefin%20Sans-1569ccf7f58dfd40ae4ccb8eb7f2f143.woff) format('woff');
 	font-weight: 100;
 	font-style: normal;
 	font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
 	font-family: 'Josefin Sans';
-	src: url(../../assets/fonts/Josefin%20Sans-2c91784d19f502b8e02536f20d5964be.woff2?h=c181fb44ec81b0968bae57e2447a534e) format('woff2'),
-	url(../../assets/fonts/Josefin%20Sans-faa8afd48e8ad2f91e4c328ee065c20e.woff?h=c181fb44ec81b0968bae57e2447a534e) format('woff');
+	src: url(../../assets/fonts/Josefin%20Sans-2c91784d19f502b8e02536f20d5964be.woff2) format('woff2'),
+	url(../../assets/fonts/Josefin%20Sans-faa8afd48e8ad2f91e4c328ee065c20e.woff) format('woff');
 	font-weight: normal;
 	font-style: italic;
 	font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
 	font-family: 'Josefin Sans';
-	src: url(../../assets/fonts/Josefin%20Sans-cb10e6831b8a914c6c6e37d2763e0c1d.woff2?h=c181fb44ec81b0968bae57e2447a534e) format('woff2'),
-	url(../../assets/fonts/Josefin%20Sans-bca3f3c67788886c9f56b6685e12ee43.woff?h=c181fb44ec81b0968bae57e2447a534e) format('woff');
+	src: url(../../assets/fonts/Josefin%20Sans-cb10e6831b8a914c6c6e37d2763e0c1d.woff2) format('woff2'),
+	url(../../assets/fonts/Josefin%20Sans-bca3f3c67788886c9f56b6685e12ee43.woff) format('woff');
 	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
