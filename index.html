@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>R.L. | Moving to New Home</title>
     
+    <!-- Secure Redirect -->
     <meta http-equiv="refresh" content="3; url=https://renjith.pythonanywhere.com">
 
     <style>
@@ -25,7 +26,6 @@
             text-align: center;
         }
 
-        /* The Minimalist Pill Shape */
         .badge {
             display: inline-flex;
             align-items: center;
@@ -69,7 +69,13 @@
             100% { left: 100%; }
         }
 
-        a { color: #888; text-decoration: none; font-size: 12px; margin-top: 20px; display: block; }
+        a {
+            color: #888;
+            text-decoration: none;
+            font-size: 12px;
+            margin-top: 20px;
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -77,14 +83,10 @@
     <div class="container">
         <div class="badge">R.L.</div>
         <div class="loading-bar"></div>
-        <a href="http://renjith.pythonanywhere.com">Redirecting to pythonanywhere.com...</a>
+        <a href="https://renjith.pythonanywhere.com">
+            Click here if not redirected
+        </a>
     </div>
 
-    <script>
-        // Smooth delay before the jump
-        setTimeout(function() {
-            window.location.href = "http://renjith.pythonanywhere.com";
-        }, 2500);
-    </script>
 </body>
 </html>
