@@ -1,431 +1,90 @@
 <!DOCTYPE html>
-<html data-bs-theme="light" lang="en" style="overflow-x: hidden;">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>R e n j i t h</title>
-    <meta name="description" content="portfolio of renjith r.l">
-    <meta property="og:image" content="assets/img/hero-pic.png">
-    <link rel="icon" type="image/png" sizes="1434x1434" href="assets/img/hero-pic-mob-modified.png">
-    <link rel="icon" type="image/png" sizes="1434x1434" href="assets/img/hero-pic-mob-modified.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/Ayudisha%20Demo.css">
-    <link rel="stylesheet" href="assets/css/Crowk.css">
-    <link rel="stylesheet" href="assets/css/Josefin%20Sans.css">
-    <link rel="stylesheet" href="assets/css/MT%20Qeyemour.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="assets/css/Navbar-Centered-Links-icons.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/Testimonials-images.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R.L. | Moving to New Home</title>
+    
+    <meta http-equiv="refresh" content="3; url=http://renjith.pythonanywhere.com">
+
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        /* The Minimalist Pill Shape */
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            background: #000;
+            color: #fff;
+            padding: 8px 24px;
+            border-radius: 100px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .loading-bar {
+            width: 100px;
+            height: 2px;
+            background: #eee;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .loading-bar::after {
+            content: "";
+            position: absolute;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            animation: slide 2s infinite linear;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slide {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+
+        a { color: #888; text-decoration: none; font-size: 12px; margin-top: 20px; display: block; }
+    </style>
 </head>
+<body>
 
-<body style="width: 100%;overflow: auto;overflow-x: hidden;font-family: 'Josefin Sans', sans-serif;"><div id="preloader" style="
-  position:fixed; inset:0; display:flex; flex-direction:column; justify-content:center; align-items:center;
-  background:rgba(255,255,255,0.95);   /* white with slight opacity */
-  z-index:999; transition:opacity 0.4s;">
+    <div class="container">
+        <div class="badge">R.L.</div>
+        <div class="loading-bar"></div>
+        <a href="http://renjith.pythonanywhere.com">Redirecting to pythonanywhere.com...</a>
+    </div>
 
-  <div style="
-    font-size:0.75rem; color:#000; opacity:0.55; letter-spacing:0.12em;
-    font-family:Arial, sans-serif; margin-bottom:6px;">
-    Loading
-  </div>
-
-  <div style="
-    width:120px; height:6px; background:rgba(0,0,0,0.12);
-    border-radius:2px; overflow:hidden;">
-    <div id="bar" style="
-      width:0%; height:100%; background:#000; opacity:0.7;
-      transition:width 0.3s;">
-    </div>
-  </div>
-</div>
-    <section class="d-flex flex-column justify-content-end hero" id="home" style="min-height: 400px;width: 100%;height: 100svh;overflow-x: hidden;">
-        <nav class="navbar navbar-expand-md bg-body py-3" style="overflow: hidden;">
-            <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3" style="border-style: none;"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon pulse animated" style="color: rgba(166,55,122,0.5);"></span></button>
-                <div class="collapse navbar-collapse align-items-center align-content-center" id="navcol-3">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item"><a class="nav-link active text-center" href="#about" style="color: rgb(45,27,27);font-family: 'Josefin Sans', sans-serif;">About</a></li>
-                        <li class="nav-item"><a class="nav-link text-center" href="#skills" style="color: #2d1b1b;font-family: 'Josefin Sans', sans-serif;">Skills</a></li>
-                        <li class="nav-item"><a class="nav-link text-center" href="#sevices" style="color: #2d1b1b;font-family: 'Josefin Sans', sans-serif;">Services</a></li>
-                        <li class="nav-item"><a class="nav-link text-center" href="#contact" style="color: #2d1b1b;font-family: 'Josefin Sans', sans-serif;">Contact</a></li>
-                        <li class="nav-item d-flex flex-row justify-content-center"><a class="btn btn-primary text-center d-inline-flex flex-row justify-content-center align-items-center align-content-center" role="button" style="border-radius: 50%;background: rgba(255,255,255,0);border-style: none;font-family: 'Josefin Sans', sans-serif;" href="#about"><i class="fas fa-caret-down bounce animated" data-bs-toggle="tooltip" data-bss-tooltip="" style="color: rgb(0,0,0);padding-top: 0;margin-bottom: 1px;padding-bottom: 4px;" title="Go down"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </section>
-    <section class="d-flex flex-row justify-content-center align-items-center align-content-center align-self-center flex-wrap about-main" id="about" style="overflow-x: hidden;overflow-y: visible;">
-        <section class="d-flex flex-row flex-fill justify-content-center align-items-center align-content-center align-self-center flex-wrap" style="width: auto;height: auto;min-width: 200px;max-width: 900px;min-height: 200px;border-color: var(--bs-danger);overflow-x: hidden;"><img class="object-fit-cover flex-wrap about-img" src="assets/img/admin.jpg" style="overflow-x: hidden;">
-            <section class="d-flex flex-column justify-content-center align-items-center align-content-center about-info" style="height: auto;min-height: 400px;max-height: 400px;width: 400px;padding-right: 8px;padding-left: 8px;min-width: 318px;padding-top: 16px;border-radius: 0px;border: 0.1px outset rgba(220,53,173,0.04);border-bottom-style: dashed;border-bottom-color: rgba(0,0,0,0.47);overflow-x: hidden;overflow-y: hidden;">
-                <h1 class="flex-wrap" style="font-family: 'Josefin Sans', sans-serif;font-size: 40px;padding-top: 4px;padding-bottom: 0px;margin-bottom: 4px;margin-top: 2px;">About Me</h1>
-                <hr data-aos="fade-left" style="background: #ff0000;color: var(--bs-danger);margin: 11px;width: 120px;border: 1px groove var(--bs-danger) ;border-bottom-style: solid;">
-                <p class="flex-wrap" data-aos="fade" data-aos-once="true" style="font-family: 'Josefin Sans', sans-serif;font-size: 12.5px;width: auto;height: 100%;padding: 0;">I'm a web developer passionate about creating dynamic and user-friendly web applications. I have a solid foundation in HTML, CSS, Bootstrap and Django. My JavaScript skills help me bring interactivity to the front end, but my true passion lies in backend development with Django. I've been working extensively with Django to build scalable, secure, and maintainable applications, leveraging its powerful features like ORM for database management, authentication, and templating. I'm also experienced in SQL, which allows me to handle complex queries efficiently. Continuous learning is important to me, and I actively explore new technologies and best practices to enhance my skill set and deliver high-quality solutions.</p>
-            </section>
-        </section>
-    </section>
-    <section class="flex-wrap" id="skills" style="min-height: 100svh;width: 100%;background: #ffffff;margin: 1px 1px 1rem 1px;overflow-x: hidden;overflow-y: visible;">
-        <div class="container flex-wrap py-4 py-xl-5">
-            <div class="row mb-5" style="overflow-x: auto;overflow-y: visible;">
-                <div class="col-md-8 col-xl-6 text-center mx-auto" style="border-color: var(--bs-warning);">
-                    <h2 style="font-family: 'Josefin Sans', sans-serif;font-size: 40px;">Skills</h2>
-                    <hr data-aos="fade-left">
-                </div>
-            </div>
-            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3 d-flex justify-content-center flex-wrap" style="overflow-x: hidden;overflow-y: visible;">
-                <div class="col" style="min-width: 250px;max-width: 350px;">
-                    <div class="card" style="min-width: 250px;max-width: 350px;">
-                        <div class="card-body text-center p-4" style="border: 0.5px solid #fff7fd;min-height: 389px;max-height: 389px;">
-                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center mb-3 d-inline-block bs-icon" style="background: #fff7fd;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-django" style="color: rgb(4,4,4);">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <path d="M3 3m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z"></path>
-                                    <path d="M12 7v8.5l-2.015 .201a2.715 2.715 0 1 1 0 -5.402l2.015 .201"></path>
-                                    <path d="M16 7v.01"></path>
-                                    <path d="M16 10v5.586c0 .905 -.36 1.774 -1 2.414"></path>
-                                </svg></div>
-                            <h4 class="card-title" style="font-family: 'Josefin Sans', sans-serif;">DJANGO</h4>
-                            <hr style="border-color: var(--bs-danger);">
-                            <p class="card-text" style="font-family: 'Josefin Sans', sans-serif;color: #4d5052;"><br><strong>Django,</strong>&nbsp;a powerful web framework that simplifies the building of scalable applications. It streamlines backend development through features like authentication and ORM, allowing for quick and efficient application deployment.<br><br></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col" style="min-width: 250px;max-width: 350px;">
-                    <div class="card" style="min-width: 250px;max-width: 350px;">
-                        <div class="card-body text-center p-4" style="border: 0.5px solid #fff7fd;max-height: 389px;min-height: 389px;">
-                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center mb-3 d-inline-block bs-icon" style="background: #fff7fd;color: rgb(0,0,0);"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-html5">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z"></path>
-                                    <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5"></path>
-                                </svg></div>
-                            <h4 class="card-title" style="font-family: 'Josefin Sans', sans-serif;">HTML</h4>
-                            <hr style="border-color: var(--bs-primary);">
-                            <p class="card-text" style="font-family: 'Josefin Sans', sans-serif;color: rgb(77,80,82);"><br>Proficient in <strong>HTML</strong>, ensuring web content is structured effectively. This includes creating semantic and accessible markup, which boosts SEO and enhances user experience across various devices and platforms.<br><br></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col" style="min-width: 250px;max-width: 350px;">
-                    <div class="card" style="min-width: 250px;max-width: 350px;">
-                        <div class="card-body text-center p-4" style="border: 0.5px solid #fff7fd;min-height: 389px;max-height: 389px;">
-                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center mb-3 d-inline-block bs-icon" style="background: #fff7fd;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-css3" style="color: rgb(0,0,0);">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z"></path>
-                                    <path d="M8.5 8h7l-4.5 4h4l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5"></path>
-                                </svg></div>
-                            <h4 class="card-title" style="font-family: 'Josefin Sans', sans-serif;">CSS</h4>
-                            <hr style="border-color: var(--bs-gray);">
-                            <p class="card-text" style="font-family: 'Josefin Sans', sans-serif;color: #4d5052;"><br>Skilled in <strong>CSS</strong>, allowing for the creation of visually engaging styles and responsive designs. Using frameworks like Flexbox and CSS Grid, I build layouts that adapt fluidly to different screen sizes, ensuring usability and aesthetics.<br><br></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col" style="min-width: 250px;max-width: 350px;">
-                    <div class="card" style="min-width: 250px;max-width: 350px;">
-                        <div class="card-body text-center p-4" style="border: 0.5px solid #fff7fd;max-height: 389px;min-height: 389px;">
-                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center mb-3 d-inline-block bs-icon" style="background: #fff7fd;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bootstrap" style="color: rgb(0,0,0);">
-                                    <path d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z"></path>
-                                    <path d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3z"></path>
-                                </svg></div>
-                            <h4 class="card-title" style="font-family: 'Josefin Sans', sans-serif;">BOOTSTRAP</h4>
-                            <hr style="border-color: var(--bs-emphasis-color);">
-                            <p class="card-text" style="font-family: 'Josefin Sans', sans-serif;color: #4d5052;"><br>Knowledgeable in <strong>Bootstrap</strong>, leveraging its pre-built components and grid system for efficient web development. This framework accelerates the creation of responsive layouts, enabling me to deliver mobile-first designs with speed and ease.<br><br></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col" style="min-width: 250px;max-width: 350px;">
-                    <div class="card" style="min-width: 250px;max-width: 350px;">
-                        <div class="card-body text-center p-4" style="border: 0.5px solid #fff7fd;min-height: 389px;max-height: 389px;">
-                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center mb-3 d-inline-block bs-icon" style="background: #fff7fd;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-javascript" style="color: rgb(0,0,0);">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z"></path>
-                                    <path d="M7.5 8h3v8l-2 -1"></path>
-                                    <path d="M16.5 8h-2.5a.5 .5 0 0 0 -.5 .5v3a.5 .5 0 0 0 .5 .5h1.423a.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5"></path>
-                                </svg></div>
-                            <h4 class="card-title" style="font-family: 'Josefin Sans', sans-serif;">JAVASCRIPT</h4>
-                            <hr style="border-color: var(--bs-form-invalid-color);">
-                            <p class="card-text" style="font-family: 'Josefin Sans', sans-serif;color: #4d5052;"><br>Experienced in <strong>JavaScript</strong>, which adds interactivity and dynamic features to web pages. By managing events and manipulating the&nbsp;DOM, I ensure a responsive user interface and fluid interactions, enhancing the overall browsing experience.<br><br></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col" style="min-width: 250px;max-width: 350px;">
-                    <div class="card" style="min-width: 250px;max-width: 350px;">
-                        <div class="card-body text-center p-4" style="border: 0.5px solid #fff7fd;min-height: 389px;max-height: 389px;">
-                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center mb-3 d-inline-block bs-icon" style="background: #fff7fd;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-sql" style="color: rgb(0,0,0);">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <path d="M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2z"></path>
-                                    <path d="M17 8v8h4"></path>
-                                    <path d="M13 15l1 1"></path>
-                                    <path d="M3 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1"></path>
-                                </svg></div>
-                            <h4 class="card-title" style="font-family: 'Josefin Sans', sans-serif;">SQL</h4>
-                            <hr>
-                            <p class="card-text" style="font-family: 'Josefin Sans', sans-serif;color: #4d5052;"><br>Competent in <strong>SQL</strong>, facilitating effective database management. Crafting complex queries allows for proper data retrieval and&nbsp; tegrity and accessibility for applications, thereby enhancing overall performance.<br><br></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="flex-wrap" id="sevices" style="min-height: 65svh;width: 100%;background: #ffffff;margin: 1px 1px 1px 1px;overflow-x: hidden;overflow-y: visible;">
-        <div class="container flex-wrap py-4 py-xl-5" style="overflow-x: hidden;overflow-y: auto;">
-            <div class="row mb-5" style="margin: 0px;overflow-x: hidden;overflow-y: auto;">
-                <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <h2 style="font-family: 'Josefin Sans', sans-serif;font-size: 40px;">Services</h2>
-                    <hr data-aos="fade-right" style="margin: 16px 0px;">
-                </div>
-            </div>
-            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3 d-flex justify-content-center flex-wrap" style="padding: 0px;padding-top: 12px;overflow-x: hidden;overflow-y: auto;display: flex;">
-                <div class="col" style="min-width: 250px;max-width: 350px;">
-                    <div class="card" style="min-width: 250px;max-width: 350px;">
-                        <div class="card-body text-center p-4" style="border: 0.5px solid #fff7fd;min-height: 340px;max-height: 340px;">
-                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center mb-3 d-inline-block bs-icon" style="background: #fff7fd;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="color: rgb(4,4,4);">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14 7C13.4477 7 13 7.44772 13 8V16C13 16.5523 13.4477 17 14 17H18C18.5523 17 19 16.5523 19 16V8C19 7.44772 18.5523 7 18 7H14ZM17 9H15V15H17V9Z" fill="currentColor"></path>
-                                    <path d="M6 7C5.44772 7 5 7.44772 5 8C5 8.55228 5.44772 9 6 9H10C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7H6Z" fill="currentColor"></path>
-                                    <path d="M6 11C5.44772 11 5 11.4477 5 12C5 12.5523 5.44772 13 6 13H10C10.5523 13 11 12.5523 11 12C11 11.4477 10.5523 11 10 11H6Z" fill="currentColor"></path>
-                                    <path d="M5 16C5 15.4477 5.44772 15 6 15H10C10.5523 15 11 15.4477 11 16C11 16.5523 10.5523 17 10 17H6C5.44772 17 5 16.5523 5 16Z" fill="currentColor"></path>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 3C2.34315 3 1 4.34315 1 6V18C1 19.6569 2.34315 21 4 21H20C21.6569 21 23 19.6569 23 18V6C23 4.34315 21.6569 3 20 3H4ZM20 5H4C3.44772 5 3 5.44772 3 6V18C3 18.5523 3.44772 19 4 19H20C20.5523 19 21 18.5523 21 18V6C21 5.44772 20.5523 5 20 5Z" fill="currentColor"></path>
-                                </svg></div>
-                            <h4 class="card-title" style="font-family: 'Josefin Sans', sans-serif;">UI/UX</h4>
-                            <hr>
-                            <p class="card-text" style="font-family: 'Josefin Sans', sans-serif;color: #4d5052;">Creating user-centered designs that prioritize usability and aesthetics,<br> ensuring a seamless experience. Conducting user research and usability testing to inform design decisions, I aim to enhance interaction and satisfaction of users.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col" style="min-width: 250px;max-width: 350px;">
-                    <div class="card" style="min-width: 250px;max-width: 350px;">
-                        <div class="card-body text-center p-4" style="border: 0.5px solid #fff7fd;min-height: 340px;max-height: 340px;">
-                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center mb-3 d-inline-block bs-icon" style="background: #fff7fd;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-braces" style="color: rgb(0,0,0);">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <path d="M7 4a2 2 0 0 0 -2 2v3a2 3 0 0 1 -2 3a2 3 0 0 1 2 3v3a2 2 0 0 0 2 2"></path>
-                                    <path d="M17 4a2 2 0 0 1 2 2v3a2 3 0 0 0 2 3a2 3 0 0 0 -2 3v3a2 2 0 0 1 -2 2"></path>
-                                </svg></div>
-                            <h4 class="card-title" style="font-family: 'Josefin Sans', sans-serif;">WEB DEVELOPMENT</h4>
-                            <hr>
-                            <p class="card-text" style="font-family: 'Josefin Sans', sans-serif;color: #4d5052;">Providing end-to-end web development services, crafting robust and dynamic websites. Combining HTML, CSS, JS, Bootstrap and Django, I build user-friendly applications that are responsive, interactive, and optimized.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col d-flex justify-content-center align-items-center" style="min-width: auto;max-width: none;padding-top: 8px;width: 100%;overflow-x: hidden;overflow-y: auto;display: flex;">
-                    <div class="card card-hey">
-                        <div class="card-body text-center p-4" style="border: 0.5px solid #fff7fd;width: 100%;">
-                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center mb-3 d-inline-block bs-icon" style="background: #000000;color: rgb(0,0,0);"><i class="far fa-hand-peace" style="color: rgb(255,255,255);"></i></div>
-                            <h4 class="card-title" style="font-family: 'Ayudisha Demo';">Hey</h4>
-                            <hr>
-                            <p class="card-text" style="text-align: center;font-weight: bold;">遠慮せずにいつでもご連絡ください</p><a class="btn btn-primary text-center align-items-center align-content-center" role="button" href="#contact" style="background: rgb(255,15,0);transition: ease;">CONTACT NOW<i class="fa fa-paper-plane" data-aos="fade-right" data-aos-once="true" style="margin: 0px 0px 0px 10px;"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col" style="max-width: 150px;">
-                    <hr data-aos="fade-left" style="background: var(--bs-warning);">
-                </div>
-                <div class="col d-flex justify-content-center align-items-center align-content-center flex-wrap" style="min-width: auto;max-width: none;padding: 0px;padding-top: 8px;width: 100%;overflow-x: hidden;overflow-y: auto;">
-                    <div class="card card-hey" style="max-width: 239px;margin: 8px;">
-                        <div class="card-body text-center p-4" style="border: 0.5px solid #fff7fd;width: 100%;font-family: 'Josefin Sans', sans-serif;">
-                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-column justify-content-center align-items-center mb-3 d-inline-block bs-icon" style="background: #fff7fd;color: rgb(0,0,0);"><i class="icon ion-code-working d-flex" style="color: rgb(0,0,0);height: auto;"></i></div>
-                            <h4 class="card-title" style="font-family: 'Josefin Sans', sans-serif;">Works</h4>
-                            <hr>
-                            <p class="card-text" style="text-align: center;font-weight: bold;"><strong>Recent Work: Thrifted Attic</strong></p><a class="btn btn-primary text-center align-items-center align-content-center" role="button" style="background: rgb(0,0,0);font-family: 'Josefin Sans', sans-serif;padding: 6px 12px;padding-top: 10px;border-style: none;border-radius: 24px;" href="https://pythonrenjith.pythonanywhere.com/" target="_blank">VIEW<i class="icon ion-arrow-right-b" style="margin: 0px 0px 0px 10px;"></i></a>
-                        </div>
-                    </div>
-                    <div class="card card-hey" style="max-width: 239px;margin: 9px;padding: 3px;">
-                        <div class="card-body text-center p-4" style="border: 0.5px solid #fff7fd;width: 100%;font-family: 'Josefin Sans', sans-serif;">
-                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center mb-3 d-inline-block bs-icon" style="background: #fff7fd;color: rgb(0,0,0);"><i class="icon ion-code-working d-flex" style="color: rgb(0,0,0);height: auto;"></i></div>
-                            <h4 class="card-title" style="font-family: 'Josefin Sans', sans-serif;">Works</h4>
-                            <hr>
-                            <p class="card-text" style="text-align: center;font-weight: bold;">FocaQuotes</p><a class="btn btn-primary text-center align-items-center align-content-center" role="button" style="background: rgb(0,0,0);font-family: 'Josefin Sans', sans-serif;padding: 6px 12px;padding-top: 10px;border-style: none;border-radius: 24px;" href="https://renjith-rl.github.io/FocaQuotes-/" target="_blank">VIEW<i class="icon ion-arrow-right-b" style="margin: 0px 0px 0px 10px;"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col d-flex justify-content-center align-items-center align-content-center flex-wrap" style="min-width: auto;max-width: none;padding: 0px;width: 100%;overflow-x: hidden;overflow-y: auto;margin-top: 0px;">
-                    <div class="card card-hey" style="max-width: 239px;margin: 8px;">
-                        <div class="card-body text-center p-4" style="border: 0.5px solid #fff7fd;width: 100%;font-family: 'Josefin Sans', sans-serif;">
-                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-column justify-content-center align-items-center mb-3 d-inline-block bs-icon" style="background: #fff7fd;color: rgb(0,0,0);"><i class="icon ion-code-working d-flex" style="color: rgb(0,0,0);height: auto;"></i></div>
-                            <h4 class="card-title" style="font-family: 'Josefin Sans', sans-serif;">Works</h4>
-                            <hr>
-                            <p class="card-text" style="text-align: center;font-weight: bold;"><strong>First Profile</strong></p><a class="btn btn-primary text-center align-items-center align-content-center" role="button" style="background: rgb(0,0,0);font-family: 'Josefin Sans', sans-serif;padding: 6px 12px;padding-top: 10px;border-style: none;border-radius: 24px;" href="https://renjith-rl.github.io/profile-first/" target="_blank">VIEW<i class="icon ion-arrow-right-b" style="margin: 0px 0px 0px 10px;"></i></a>
-                        </div>
-                    </div>
-                    <div class="card card-hey" style="max-width: 239px;margin: 9px;padding: 3px;">
-                        <div class="card-body text-center p-4" style="border: 0.5px solid #fff7fd;width: 100%;font-family: 'Josefin Sans', sans-serif;">
-                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center mb-3 d-inline-block bs-icon" style="background: #fff7fd;color: rgb(0,0,0);"><i class="icon ion-code-working d-flex" style="color: rgb(0,0,0);height: auto;"></i></div>
-                            <h4 class="card-title" style="font-family: 'Josefin Sans', sans-serif;">Works</h4>
-                            <hr>
-                            <p class="card-text" style="text-align: center;font-weight: bold;">New Profile</p><a class="btn btn-primary text-center align-items-center align-content-center" role="button" style="background: rgb(0,0,0);font-family: 'Josefin Sans', sans-serif;padding: 6px 12px;padding-top: 10px;border-style: none;border-radius: 24px;" href="https://renjith-rl.github.io/re/" target="_blank">VIEW<i class="icon ion-arrow-right-b" style="margin: 0px 0px 0px 10px;"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <hr style="color: rgba(33,37,41,0);">
-    <div class="container py-4 py-xl-5" style="padding-top: 0px!important;padding-bottom: 0px!important;overflow-x: hidden;overflow-y: visible;">
-        <hr style="background: #ffdff8;color: rgba(33,37,41,0.46);">
-        <div class="row mb-5">
-            <div class="col text-center mx-auto" style="overflow-x: hidden;overflow-y: visible;">
-                <div class="row row-cols-2 row-cols-md-4 d-flex justify-content-evenly" style="background: #ffffff;margin: 1px 1px;border-radius: 9px;padding: 5px;border: 0.5px solid #fff7fd;font-family: 'Josefin Sans', sans-serif;">
-                    <div class="col" style="background: #ffffff;border-radius: 9px;margin: 5px;border: 0.5px solid #000000 ;border-bottom-style: solid;">
-                        <div class="p-3" style="border-style: none;">
-                            <h1>4Y+</h1>
-                            <p class="mb-0">Experience</p>
-                        </div>
-                    </div>
-                    <div class="col" style="background: #ffffff;border-radius: 9px;margin: 5px;border: 0.5px solid #fc9ae1 ;">
-                        <div class="p-3" style="border-style: none;">
-                            <h1>24x7</h1>
-                            <p class="mb-0">Support</p>
-                        </div>
-                    </div>
-                    <div class="col" style="background: #ffffff;border-radius: 9px;margin: 5px;border: 0.5px solid #000000 ;">
-                        <div class="p-3" style="border-style: none;">
-                            <h1>100%</h1>
-                            <p class="mb-0">Trustable</p>
-                        </div>
-                    </div>
-                </div>
-                <hr style="color: rgba(33,37,41,0.45);">
-            </div>
-        </div>
-    </div>
-    <div class="container py-4 py-xl-5" id="testimonials" style="font-family: 'Josefin Sans', sans-serif;padding-bottom: 28px;margin-bottom: 6px;overflow-x: hidden;overflow-y: visible;">
-        <div class="row mb-5" style="overflow-x: hidden;overflow-y: visible;">
-            <div class="col-md-8 col-xl-6 text-center mx-auto">
-                <h2 style="font-size: 40px;">Testimonials</h2>
-                <hr data-aos="fade-right" style="overflow-x: hidden;">
-            </div>
-        </div>
-        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3 d-flex justify-content-center align-items-center align-content-center" data-aos="fade" data-aos-once="true" style="overflow-x: hidden;overflow-y: visible;">
-            <div class="col" style="max-width: 260px;">
-                <div>
-                    <p class="bg-body-tertiary border rounded border-0 p-4" style="border: 0.5px solid #ffdff8;background: #fff7fd !important;text-align: left;">"Amazing designs! Exceeded all my&nbsp; expectations!"</p>
-                    <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50" src="assets/img/user1.jpg">
-                        <div>
-                            <p class="fw-bold text-primary mb-0">Sooraj S</p>
-                            <p class="text-muted mb-0">UI/UX developer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col" style="max-width: 260px;">
-                <div>
-                    <p class="bg-body-tertiary border rounded border-0 p-4" style="border: 0.5px solid #ffdff8;background: #fff7fd !important;text-align: left;">"Great service! My website looks fantastic!"&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
-                    <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50" src="assets/img/user2.jpg">
-                        <div>
-                            <p class="fw-bold text-primary mb-0">Abhijith S.V</p>
-                            <p class="text-muted mb-0">Client</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col" style="max-width: 260px;">
-                <div>
-                    <p class="bg-body-tertiary border rounded border-0 p-4" style="border: 0.5px solid #ffdff8;background: #fff7fd !important;text-align: left;">"Delivered ahead of schedule! Very impressed!"</p>
-                    <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50" src="assets/img/user4.jpg">
-                        <div>
-                            <p class="fw-bold text-primary mb-0">Midhun</p>
-                            <p class="text-muted mb-0">S M aquatics</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col" style="max-width: 260px;">
-                <div>
-                    <p class="bg-body-tertiary border rounded border-0 p-4" style="border: 0.5px solid #ffdff8;background: #fff7fd !important;text-align: left;">"Creative! understand user needs."<br>&nbsp;</p>
-                    <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50" src="assets/img/user3.jpg">
-                        <div>
-                            <p class="fw-bold text-primary mb-0">Karthik</p>
-                            <p class="text-muted mb-0">Entrepreneur</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <section class="position-relative py-4 py-xl-5" id="contact" style="font-family: 'Josefin Sans', sans-serif;overflow-x: hidden;overflow-y: visible;">
-        <div class="container position-relative" style="overflow-x: hidden;">
-            <div class="row mb-5" style="overflow-x: hidden;overflow-y: visible;">
-                <div class="col-md-8 col-xl-6 text-center mx-auto" style="overflow-x: hidden;">
-                    <h2 style="font-size: 40px;">Contact Me</h2>
-                    <hr>
-                    <p class="w-lg-50" style="font-size: 12px;text-align: center;font-style: italic;color: #770064;font-family: 'MT Qeyemour';padding: 1rem;padding-top: 0px;padding-bottom: 0px;">Contact me anytime without hesitation; I offer quality service at low prices. Your satisfaction is my top priority. Let's connect!</p>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center" style="overflow-x: hidden;overflow-y: visible;">
-                <div class="col-md-6 col-lg-4 col-xl-4" style="border: 0.5px none #ffdff8;margin: 0px;">
-                    <div class="d-flex h-100 flex-column justify-content-center align-items-start">
-                        <div class="d-flex align-items-center p-3">
-                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon" style="background: #ffdff8;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-telephone">
-                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
-                                </svg></div>
-                            <div class="px-2">
-                                <h6 class="mb-0">Phone</h6>
-                                <p class="mb-0">+91 ---</p>
-                            </div>
-                        </div>
-                        <div class="d-flex align-items-center p-3">
-                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon" style="background: #ffdff8;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-github">
-                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8"></path>
-                                </svg></div>
-                            <div class="px-2">
-                                <h6 class="mb-0">Github</h6>
-                                <p class="mb-0">renjith-rl.github.io</p>
-                            </div>
-                        </div>
-                        <div class="d-flex align-items-center p-3"><a href="https://www.instagram.com/renjith_raju_r.l?igsh=MXVmY2NzNHpvbzdlNw==" target="_blank">
-                                <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon" style="background: #ffdff8;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram">
-                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"></path>
-                                    </svg></div>
-                            </a>
-                            <div class="px-2">
-                                <h6 class="mb-0">Instagram</h6><a class="text-decoration-none" href="https://www.instagram.com/renjith_raju_r.l?igsh=MXVmY2NzNHpvbzdlNw==" target="_blank" style="color: var(--bs-dark);">
-                                    <p class="text-decoration-none mb-0" style="color: var(--bs-dark);">renjith_raju_r.l</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-5 col-xl-4" style="border: 0.5px none #ffdff8 ;">
-                    <div><form action="https://api.web3forms.com/submit" class="p-3 p-xl-4" method="post" style="border: 0.5px solid #ffdff8;border-radius: 7px;">
-    <input type="hidden" name="access_key" value="c28b6068-260d-4657-8c3e-2cc3b46cc6a2">
-    <input type="hidden" name="profile-main" value="v.03">
-    <div class="mb-3"><input id="name-1" class="form-control" type="text" name="name" placeholder="Name" required /></div>
-    <div class="mb-3"><input id="email-1" class="form-control" type="email" name="email" placeholder="Email" required /></div>
-    <div class="mb-3"><textarea id="message-1" class="form-control" name="message" rows="6" placeholder="Message" required ></textarea></div>
-    <div><button class="btn btn-primary d-block w-100" type="submit" style="background: rgb(5,225,0);border-style: none;">Send </button></div>
-</form></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer class="text-center" style="overflow-x: hidden;overflow-y: visible;">
-        <div class="container text-muted py-4 py-lg-5" style="overflow-x: hidden;overflow-y: visible;">
-            <hr style="overflow-x: hidden;margin-bottom: 34px;">
-            <ul class="list-inline" style="font-family: 'Josefin Sans', sans-serif;overflow-x: hidden;">
-                <li class="list-inline-item me-4"><a class="link-secondary" href="#" style="font-family: 'Josefin Sans', sans-serif;">Fiverr</a></li>
-                <li class="list-inline-item me-4"><a class="link-secondary" href="https://www.upwork.com/freelancers/~01bffa51068088e839" target="_blank" style="font-family: 'Josefin Sans', sans-serif;">UpWork</a></li>
-                <li class="list-inline-item"><a class="link-secondary" href="https://www.linkedin.com/in/renjith-r-l-31b78b34b?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app" target="_blank">LinkedIn</a></li>
-            </ul>
-            <ul class="list-inline text-decoration-none" style="overflow-x: hidden;">
-                <li class="list-inline-item text-decoration-none me-4"><a href="https://www.instagram.com/renjith_raju_r.l?igsh=MXVmY2NzNHpvbzdlNw==" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-facebook" style="color: var(--bs-primary);">
-                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"></path>
-                        </svg></a></li>
-                <li class="list-inline-item me-4"><a href="https://www.instagram.com/renjith_raju_r.l?igsh=MXVmY2NzNHpvbzdlNw==" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-twitter-x text-decoration-none" style="color: var(--bs-dark);">
-                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"></path>
-                        </svg></a></li>
-                <li class="list-inline-item"><a href="https://www.instagram.com/renjith_raju_r.l?igsh=MXVmY2NzNHpvbzdlNw==" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram text-decoration-none" style="color: var(--bs-danger);">
-                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"></path>
-                        </svg></a></li>
-            </ul>
-            <p class="mb-0" style="font-family: 'Josefin Sans', sans-serif;color: rgba(127,130,132,0.75);overflow-x: hidden;">Copyright © 2025 Renjith r.l</p>
-        </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="assets/js/loader.js"></script>
+    <script>
+        // Smooth delay before the jump
+        setTimeout(function() {
+            window.location.href = "http://renjith.pythonanywhere.com";
+        }, 2500);
+    </script>
 </body>
-
 </html>
